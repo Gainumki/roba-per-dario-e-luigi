@@ -16,8 +16,7 @@ int main()  // int main() indica l'inizio del corpo principale del programma, in
 }
 
 
-float x,y;  // float x,y è usato per dichiarare le variabili di tipo float x e y
-            // una variabile float è un tipo di variabile che contiene un numero che può avere cifre decimali
+float x,y;  // [tipo variabili] x,y è usato per dichiarare le variabili x e y
             // si possono dichiarare più variabili in una linea di codice separandole con una virgola
             
 cin>>x; // cin è utilizzato per prendere un input e mettere il contenuto dentro una variabile
@@ -58,4 +57,8 @@ goto label;     // serve a tornare indietro ad una linea di codice etichettata c
    }  
    while ();    // solo mentre la condizione nelle parentesi tonde è vera
    
-   
+// tipi di variabile: 
+// char: un carattere alfanumerico (un tasto della tastiera praticamente)
+// int: un numero intero
+// float: un numero che può avere cifre decimali
+// string: più di un carattere, possono essere parole o intere frasi
